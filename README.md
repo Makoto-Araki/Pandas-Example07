@@ -7,7 +7,7 @@
 ```
 frame1.head()
 ```
-![画像1](./Pandas-Exercises7-1.png)
+![画像1](./image01.png)
 
 <br>
 
@@ -15,7 +15,7 @@ frame1.head()
 ```
 frame1.tail()
 ```
-![画像2](./Pandas-Exercises7-2.png)
+![画像2](./image02.png)
 
 <br>
 
@@ -23,7 +23,7 @@ frame1.tail()
 ```
 frame1.loc['2020-01-08':'2020-01-12']
 ```
-![画像3](./Pandas-Exercises7-3.png)
+![画像3](./image03.png)
 
 <br>
 
@@ -31,7 +31,7 @@ frame1.loc['2020-01-08':'2020-01-12']
 ```
 frame1.resample(rule='W').mean().head()
 ```
-![画像4](./Pandas-Exercises7-4.png)
+![画像4](./image04.png)
 
 <br>
 
@@ -39,7 +39,7 @@ frame1.resample(rule='W').mean().head()
 ```
 frame1.resample(rule='W').sum().head()
 ```
-![画像5](./Pandas-Exercises7-5.png)
+![画像5](./image05.png)
 
 <br>
 
@@ -47,7 +47,7 @@ frame1.resample(rule='W').sum().head()
 ```
 frame1.resample(rule='M').mean().head()
 ```
-![画像6](./Pandas-Exercises7-6.png)
+![画像6](./image06.png)
 
 <br>
 
@@ -55,7 +55,7 @@ frame1.resample(rule='M').mean().head()
 ```
 frame1.resample(rule='M').sum().head()
 ```
-![画像7](./Pandas-Exercises7-7.png)
+![画像7](./image07.png)
 
 <br>
 
